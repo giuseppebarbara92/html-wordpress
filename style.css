@@ -35,10 +35,12 @@ body{
 
 .menu{
 height: 80px;
+width: 100%;
 text-align: center;
 background-color: rgba(73, 65, 56, 0.5);
 }
 .menu_item{
+  width: auto;
   font-size: 20px;
   color: white;
   line-height: 80px;
