@@ -1,0 +1,144 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("default-pattern.png");
+  font-family: helvetica;
+}
+
+.wrapper{
+  width: 1600px;
+  height: auto;
+  margin: auto;
+
+}
+
+.header{
+  width: 1600px;
+  height: 480px;
+  border: 20px solid white;
+  background-image: url("default-header.jpg");
+  position: relative;
+  margin-top: 20px;
+}
+
+#logo{
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu{
+height: 80px;
+text-align: center;
+background-color: rgba(73, 65, 56, 0.5);
+}
+.menu_item{
+  font-size: 20px;
+  color: white;
+  line-height: 80px;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu_item a{
+  color: white;
+  text-decoration: none;
+}
+
+.menu_item:hover{
+  background-color: rgba(73, 65, 56, 0.5);
+}
+
+.column_left{
+height: 600px;
+width: 350px;
+background-color: white;
+margin-top: 40px;
+float:left;
+padding: 20px;
+overflow: scroll;
+}
+
+.column_left ul li{
+margin-top: 20px;
+list-style: none;
+}
+.column_left a{
+color: #bee927;
+font-size: 15px;
+line-height: 30px;
+}
+
+.column_center{
+height: 600px;
+width: 750px;
+background-color: white;
+margin-top: 40px;
+margin-left: 40px;
+float: left;
+padding: 20px;
+}
+
+p{
+  font-size: 15px;
+  line-height: 30px;
+  margin-top: 20px;
+  color: #939598;
+}
+h1{
+color: #534239;
+}
+
+.column_center a{
+  color: #bee927;
+}
+.column_center h1{
+  font-size: 35px;
+}
+
+.column_right{
+height: 600px;
+width: 420px;
+margin-top: 40px;
+margin-left: 40px;
+float: left;
+}
+
+.box1{
+width: 420px;
+height: 280px;
+margin-bottom: 40px;
+background-color: white;
+padding: 20px;
+}
+
+
+.box2{
+width: 420px;
+height: 280px;
+background-color: white;
+padding: 20px;
+}
+/* Questo mi permette di interrompere float. */
+.container::after {
+ content: "";
+ display: table;
+ clear: both;
+}
+.container_footer{
+height: 100px;
+width: 1600px;
+background-color: rgba(73, 65, 56, 0.5);
+margin-top: 40px;
+margin-bottom: 20px;
+text-align: center;
+line-height: 100px;
+color: white;
+}
